@@ -1,6 +1,6 @@
 // Example usage for tmc2209 library by Peter Polidoro.
 
-#include "TMC2209.h"
+#include "tmc2209.h"
 
 // Initialize objects from the lib
 TMC2209 tmc2209;
