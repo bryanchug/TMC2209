@@ -1,12 +1,12 @@
-/* tmc2209 library by Peter Polidoro
+/* TMC2209 library by Peter Polidoro
  */
 
-#include "tmc2209.h"
+#include "TMC2209.h"
 
 /**
  * Constructor.
  */
-Tmc2209::Tmc2209()
+TMC2209::TMC2209()
 {
   // be sure not to call anything that requires hardware be initialized here, put those in begin()
 }
@@ -14,7 +14,7 @@ Tmc2209::Tmc2209()
 /**
  * Example method.
  */
-void Tmc2209::begin()
+void TMC2209::begin()
 {
     // initialize hardware
     Serial.println("called begin");
@@ -23,7 +23,7 @@ void Tmc2209::begin()
 /**
  * Example method.
  */
-void Tmc2209::process()
+void TMC2209::process()
 {
     // do something useful
     Serial.println("called process");
@@ -33,7 +33,7 @@ void Tmc2209::process()
 /**
 * Example private method
 */
-void Tmc2209::doit()
+void TMC2209::doit()
 {
     Serial.println("called doit");
 }

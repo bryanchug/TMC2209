@@ -1,19 +1,19 @@
 #pragma once
 
-/* tmc2209 library by Peter Polidoro
+/* TMC2209 library by Peter Polidoro
  */
 
 // This will load the definition for common Particle variable types
 #include "Particle.h"
 
 // This is your main class that users will import into their application
-class Tmc2209
+class TMC2209
 {
 public:
   /**
    * Constructor
    */
-  Tmc2209();
+  TMC2209();
 
   /**
    * Example method
