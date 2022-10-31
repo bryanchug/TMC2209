@@ -4,7 +4,7 @@
 // Authors:
 // Peter Polidoro peter@polidoro.io
 // ----------------------------------------------------------------------------
-#include "TMC2209.h"
+#include "tmc2209.h"
 
 
 TMC2209::TMC2209()
